@@ -36,11 +36,11 @@ class Footer extends Component {
                     <h6 className="mb-0 text-white text-center text-md-left"><strong>Contact us through social media and email!</strong></h6>
                 </div>
 
-                <div className="col-12 col-md-7 text-center text-md-right">
+                <div className="col-12 col-md-7 text-center text-md-right d-block">
 
-                    <a href="https://www.facebook.com/solarkingja" target="_blank" rel="noopener noreferrer" className="icons-sm fb-ic ml-0"><i className="fab fa-facebook text-white fa-2x col-lg-2"> </i></a>
-                    <a onClick={this.handleClick1} className="icons-sm gplus-ic"><i className="fab fa-instagram text-white fa-2x col-lg-2"> </i></a>
-                    <a onClick={this.handleClick2} className="icons-sm gplus-ic"><i className="far fa-envelope text-white fa-2x col-lg-2"> </i></a>
+                    <a href="https://www.facebook.com/solarkingja" target="_blank" rel="noopener noreferrer" className="icons-sm fb-ic ml-0"><i className="fab fa-facebook text-white fa-2x col-lg-2 d-inline"> </i></a>
+                    <a onClick={this.handleClick1} className="icons-sm gplus-ic"><i className="fab fa-instagram text-white fa-2x col-lg-2 d-inline"> </i></a>
+                    <a onClick={this.handleClick2} className="icons-sm gplus-ic"><i className="far fa-envelope text-white fa-2x col-lg-2 d-inline"> </i></a>
                 </div>
             </div>
         </div>
@@ -48,15 +48,15 @@ class Footer extends Component {
 
 
     <div className="container mt-5 mb-4 text-center text-md-left">
-        <div className="row mt-3 footer-int">
+        <div className="row mt-3">
 
-            <div className="col-md-3 col-lg-3 col-xl-3 4b-r dark-grey-text">
-                <h6 className="title font-bold"><img className="img-responsive" src={logo} alt="Solar King"/></h6>
+            <div className="col-md-3 col-lg-3 col-xl-3 4b-r dark-grey-text footer-int">
+                <h6 className="title font-bold"><img className="img-responsive" src={logo} alt="Solar King"/></h6><hr/>
 
             </div>
 
             <div className="col-md-3 col-lg-2 col-xl-4 mx-auto mb-r dark-grey-text">
-                <h6 className="title font-bold"><strong>Disclaimer</strong></h6>
+                <h6 className="title font-bold visible-md-block"><strong>Disclaimer</strong></h6>
                 <hr className="text-primary" />
                 <p>This website is designed, developed and hosted by Solar King JA.
                    <a className="text-primary text-uppercase" data-toggle="modal" data-target="#disclaimer"><strong><br/>Read More</strong></a>

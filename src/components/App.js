@@ -8,13 +8,15 @@ import Footer from './Footer';
 import './css/bootstrap.css';
 import './css/creative.css';
 import './css/fontawesome-all.css';
-import './css/magnific-popup.css';
 import 'react-s-alert/dist/s-alert-default.css';
 import 'react-s-alert/dist/s-alert-css-effects/slide.css';
 //Dependencies
 import Alert from 'react-s-alert';
+// eslint-disable-next-line
 import jQuery from 'jquery';
+// eslint-disable-next-line
 import bootstrap from 'bootstrap';
+// eslint-disable-next-line
 import Popper from 'popper.js';
 
 

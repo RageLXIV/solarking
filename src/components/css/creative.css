@@ -59,6 +59,10 @@ footer #copy {
   background-color: #bec5b7;
 }
 
+.footer-int hr {
+  width: 60px;
+}
+
 a.nav-link, a.navbar-brand, footer a {
   cursor: pointer;
 }
