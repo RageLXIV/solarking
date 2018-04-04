@@ -51,18 +51,17 @@ class Footer extends Component {
         <div className="row mt-3">
 
             <div className="col-md-3 col-lg-3 col-xl-3 4b-r dark-grey-text footer-int">
-                <h6 className="title font-bold"><img className="img-responsive" src={logo} alt="Solar King"/></h6><hr/>
+                <h6 className="font-bold"><img className="img-responsive" src={logo} alt="Solar King"/></h6><hr/>
 
             </div>
 
             <div className="col-md-3 col-lg-2 col-xl-4 mx-auto mb-r dark-grey-text">
                 <h6 className="title font-bold visible-md-block"><strong>Disclaimer</strong></h6>
-                <hr className="text-primary" />
                 <p>This website is designed, developed and hosted by Solar King JA.
                    <a className="text-primary text-uppercase" data-toggle="modal" data-target="#disclaimer"><strong><br/>Read More</strong></a>
                  </p>
                  <div className="modal fade" id="disclaimer" tabindex="-1" role="dialog" aria-labelledby="disclaimer" aria-hidden="true">
-                  <div className="modal-dialog" role="document">
+                  <div className="modal-dialog modal-lg" role="document">
                    <div className="modal-content">
 
                      <div className="modal-body">
@@ -83,9 +82,8 @@ class Footer extends Component {
 
             <div className="col-md-3 col-lg-4 col-xl-4">
                 <h6 className="title font-bold"><strong>Contact</strong></h6>
-                <hr className="text-primary" />
-                <p><i className="fa fa-home mr-3"></i><a className="text-dark" href="https://goo.gl/maps/Y1yb1N7sobk" target="_blank" rel="noopener noreferrer">81A Molynes Road Kingston 10</a></p>
-                <p><i className="fab fa-whatsapp mr-3"></i>631-1247 | 631-1169 | 537-7752</p>
+                <p><i className="fa fa-home mr-3"></i><a className="text-dark" href="https://goo.gl/maps/wrDN6E7H7w92" target="_blank" rel="noopener noreferrer">81A Molynes Road Kingston 10</a></p>
+                <p><i className="fab fa-whatsapp mr-3"></i><a>631-1247 | 631-1169 | 537-7752</a></p>
             </div>
           </div>
         </div>

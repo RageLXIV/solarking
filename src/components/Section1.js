@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Element } from 'react-scroll'
+import about from './img/about.jpg';
 
 class Section1 extends Component {
   render() {
@@ -18,48 +19,37 @@ class Section1 extends Component {
             </div>
           </div>
         </section>
-        <section>
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12 text-center">
-                <h2 className="section-heading">At Your Service!</h2>
-                <hr className="my-4"/>
+        <div className="section md-section bg-grey">
+
+
+  				<div className="bg-img bg-half overlay" style={{backgroundImage: `url(${about})`}}></div>
+
+
+
+  				<div className="container">
+
+
+  					<div className="row">
+
+
+  						<div className="offset-md-7 col-md-6">
+  							<h2 className="title">About Us</h2>
+  							<p className="lead">It is our goal to remain an industry leader by spreading the good news of sustainability, continuing our own education, and through communicating new ideas and fresh perspectives. The solar industry has made tremendous advances recently and we are excited to be at the center of the solar movement! We hope you join our solar community, and become one of our very satisfied customers.</p>
+                <p>&#9679; <b><i>Our Vision</i></b> : To create new value, excite and delight our customers through the best solar products and services that the world offers.<br/><br/>
+                &#9679; <b><i>Mission</i></b> : With passion, pride and speed, we actively communicate with our customers to deliver insightful automotive products and services that exceed their expectations.<br/><br/>
+                &#9679; <b><i>Value</i></b> : We value integrity, customer focus, creativity, and efficient and nimble actions and respect highly motivated people and team spirit. We positively support environmental matters, safety and society.
+                </p>
+
               </div>
-            </div>
-          </div>
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-3 col-md-6 text-center">
-                <div className="service-box mt-5 mx-auto">
-                  <i className="far fa-4x fa-sun text-primary mb-3 sr-icons"></i>
-                  <h3 className="mb-3">Solar Electrical Systems</h3>
-                  <p className="text-muted mb-0">Whether you are looking for a small solar electrical system to supplement your home electricity usage or you’re looking to power a large commercial property, there is a solar system that will fit your needs. Solar power is clean, renewable, and very available, making it a relatively inexpensive and attractive choice for consumers worldwide.</p>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6 text-center">
-                <div className="service-box mt-5 mx-auto">
-                  <i className="fa fa-4x fa-leaf text-primary mb-3 sr-icons"></i>
-                  <h3 className="mb-3">Air<br/>Conditioning</h3>
-                  <p className="text-muted mb-0">Air conditioners remove heat from your home or workspace, leaving you cool and comfortable even on the hottest summer afternoons.</p>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6 text-center">
-                <div className="service-box mt-5 mx-auto">
-                  <i className="far fa-4x fa-lightbulb text-primary mb-3 sr-icons"></i>
-                  <h3 className="mb-3">LED Light Bulbs</h3>
-                  <p className="text-muted mb-0">If you're looking for a cost-effective, energy-saving alternative to traditional incandescent bulbs, LED lights are the right choice. These bulbs operate on just a fraction of the energy as incandescent and CFL bulbs and provide a much longer lifespan.</p>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6 text-center">
-                <div className="service-box mt-5 mx-auto">
-                  <i className="fas fa-4x fa-tint text-primary mb-3 sr-icons"></i>
-                  <h3 className="mb-3">Solar Water Heaters</h3>
-                  <p className="text-muted mb-0">Solar water heaters use renewable thermal energy produced by the sun to warm water for your shower, washing machine, dishwasher etc. Better yet, it does it at a fraction of the price of a conventional storage tank water heater!</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+
+
+  					</div>
+
+
+  				</div>
+
+
+  			</div>
         </Element>
       </div>
     );

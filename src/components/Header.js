@@ -10,7 +10,7 @@ class Header extends Component {
           <div className="container my-auto">
             <div className="row">
                 <div className="col-lg-11 mx-auto">
-                <h1 className="text-uppercase">
+                <h1 className="text-uppercase white-text">
                   <b>Experience The Power of The Sun at its Finest!</b><br/>
                 </h1>
                 <hr/>
