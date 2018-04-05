@@ -38,7 +38,7 @@ class Contact extends Component {
 			                    </form>
 		                    </div>
                         </div>
-                        <iframe className="form-box" title="Contact" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15175.90581027319!2d-76.8224016!3d18.0262964!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd1ef786d6b151d2!2sSolar+King+JA!5e0!3m2!1sen!2sjm!4v1522862039686" frameborder="0" style={{"width":"540px","padding":"40px 0px 0px 40px","border-radius":"4px 4px 4px 10px"}} allowfullscreen></iframe>
+                        <iframe className="form-box" title="Contact" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15175.90581027319!2d-76.8224016!3d18.0262964!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd1ef786d6b151d2!2sSolar+King+JA!5e0!3m2!1sen!2sjm!4v1522862039686" frameborder="0" style={{"width":"540px","padding":"40px 40px 40px 40px","border-radius":"4px 4px 4px 10px"}} allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
